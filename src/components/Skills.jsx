@@ -1,4 +1,4 @@
-import { MARQUEE, SKILLS } from "../constants";
+import { MARQUEE, SKILLS } from "../rawdata";
 
 export function Skills() {
   return (

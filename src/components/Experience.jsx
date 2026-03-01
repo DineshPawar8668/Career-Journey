@@ -1,4 +1,4 @@
-import { EXPERIENCE } from './../constants';
+import { EXPERIENCE } from './../rawdata';
 
 export function Experience() {
   return (

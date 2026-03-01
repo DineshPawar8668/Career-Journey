@@ -222,7 +222,7 @@ export const MARQUEE = [
 
 export const EXPERIENCE = [
   {
-    period: "Feb 2025 – Present",
+    period: "Feb 2026 – Present",
     company: "ESDS Software Solutions Pvt. Ltd., Nashik",
     role: "Senior MERN Stack Developer (Specialist)",
     points: [
@@ -234,7 +234,7 @@ export const EXPERIENCE = [
     ],
   },
   {
-    period: "Feb 2025 – Present",
+    period: "Feb 2025 – Jan 2026",
     company: "Maxdigi Solutions Pvt. Ltd., Nashik",
     role: "Senior MERN Stack Developer",
     points: [

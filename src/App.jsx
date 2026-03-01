@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import "./App.css";
-import { EXPERIENCE, PROJECTS, SKILLS } from "./constants";
+import { EXPERIENCE, PROJECTS, SKILLS } from "./rawdata";
 import { Contact } from "./components/Contact";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";

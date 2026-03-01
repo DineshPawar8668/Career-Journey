@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { PROJECTS } from "../constants";
+import { PROJECTS } from "../rawdata";
 
 export function Projects() {
   const scrollRef = useRef(null);
