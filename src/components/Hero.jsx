@@ -13,18 +13,20 @@ export function Hero() {
           </div>
 
           <h1 className="hero-title">
-            Dinesh
+            Dinesh 
             <br />
             <span className="accent">Pawar</span>
           </h1>
 
           <p className="hero-sub">Senior MERN Stack Developer</p>
 
-          <p className="hero-tagline">
-            Crafting scalable, high-performance web applications with 3+ years
-            of end-to-end engineering experience across React, Node.js,
-            TypeScript & AWS.
-          </p>
+         <p className="hero-tagline">
+  Full-stack engineer with 3+ years of experience building scalable 
+  React & Node.js applications powered by TypeScript and AWS. 
+  Specialized in designing robust backend architectures, developing 
+  performant frontend systems, integrating third-party services, 
+  and delivering production-ready solutions from concept to deployment.
+</p>
 
           <div className="hero-btns">
             <a href="#projects" className="btn-primary">
@@ -36,28 +38,7 @@ export function Hero() {
           </div>
           
 
-          <div className="hero-stats">
-            <div className="stat-item">
-              <h3 className="accent">
-                <CountUp target={3} suffix="+" />
-              </h3>
-              <p>Years Experience</p>
-            </div>
-            <div className="stat-divider"></div>
-            <div className="stat-item">
-              <h3 className="accent">
-                <CountUp target={10} suffix="+" />
-              </h3>
-              <p>Projects Shipped</p>
-            </div>
-            <div className="stat-divider"></div>
-            <div className="stat-item">
-              <h3 className="accent">
-                <CountUp target={2} />
-              </h3>
-              <p>Companies</p>
-            </div>
-          </div>
+        
         </div>
 
         {/* Right Card */}
@@ -82,6 +63,28 @@ export function Hero() {
           </div>
         </div>
       </div>
+        <div className="hero-stats">
+            <div className="stat-item">
+              <h3 className="accent">
+                <CountUp target={3} suffix="+" />
+              </h3>
+              <p>Years Experience</p>
+            </div>
+            <div className="stat-divider"></div>
+            <div className="stat-item">
+              <h3 className="accent">
+                <CountUp target={10} suffix="+" />
+              </h3>
+              <p>Projects Shipped</p>
+            </div>
+            <div className="stat-divider"></div>
+            <div className="stat-item">
+              <h3 className="accent">
+                <CountUp target={2} />
+              </h3>
+              <p>Companies</p>
+            </div>
+          </div>
     </section>
   );
 }
